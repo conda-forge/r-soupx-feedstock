@@ -5,11 +5,9 @@ Home: https://github.com/constantAmateur/SoupX
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-soupx-feedstock/blob/master/LICENSE.txt)
 
 Summary: Quantify, profile and remove ambient mRNA contamination (the "soup") from droplet based single cell RNA-seq experiments.  Implements the method described in Young et al. (2018) <doi:10.1101/303727>.
-
-
 
 Current build status
 ====================
