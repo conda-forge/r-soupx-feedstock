@@ -1,4 +1,4 @@
-{% set version = "1.5.0" %}
+{% set version = "1.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SoupX_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SoupX/SoupX_{{ version }}.tar.gz
-  sha256: 308cbeac557388a59e9e4604f8686274285c777322414ed6a2b725c81bfc4714
+  sha256: 83090270b46a1c703adc33709bcefacb53321348d0a484dded778e47fa160dfe
 
 build:
   merge_build_host: true  # [win]
