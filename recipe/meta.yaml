@@ -25,12 +25,12 @@ requirements:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
-    - r-base
+    - r-base >=4.0
     - r-matrix
     - r-seurat >=3.2.2
     - r-ggplot2
   run:
-    - r-base
+    - r-base >=4.0
     - r-matrix
     - r-seurat >=3.2.2
     - r-ggplot2
